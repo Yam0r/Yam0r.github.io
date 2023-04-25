@@ -55,14 +55,12 @@
                 <th>Product Name </th>
                 <th>Description</th>
                 <th>Options</th>
-                <th>Edit</th>
             </tr>
             <tr v-for="c in card">
                 <td><img class="ImgTableContact"
                         :src="'./img/'+c.image" alt=""></td>
                 <td>{{ c.title }}</td>
                 <td>{{ c.desc }}</td>
-                <td><a href="#" @click.prevent="removeFromCard(c.id)">X</a></td>
                 <td><a href="#" @click.prevent="removeFromCard(c.id)">X</a></td>
             </tr>
         </table>
