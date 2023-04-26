@@ -116,7 +116,7 @@ strong{
     background: #57984C;
     color: #fff;
     border: none;
-    width: 160px;
+    /* width: 160px; */
     height: 55px;
 }
 .under_menu{
